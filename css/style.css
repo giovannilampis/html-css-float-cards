@@ -65,8 +65,12 @@ a {
     text-decoration: none;
 }
 
+.cards-top {
+    padding-bottom: 2rem;
+}
+
 .margin-card {
-    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .info {
