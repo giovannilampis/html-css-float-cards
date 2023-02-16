@@ -13,3 +13,7 @@
     display: table;
     clear: both;
 }
+
+body {
+    font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+}
