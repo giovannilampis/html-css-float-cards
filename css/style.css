@@ -1,21 +1,28 @@
 /* UTILITIES */
 
 /* reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* clearfix */
-.clearfix {
-    content: "";
-    display: table;
-    clear: both;
-}
+/* GENERAL RULES */
+
+/* font */
 
 body {
     font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+}
+
+
+/* clearfix */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .container {
@@ -24,29 +31,44 @@ body {
     padding-top: 3rem;
 }
 
+/* HEADER */
+
 h1{
     color: rgb(229, 49, 112);
     text-align: center;
 }
 
+/* MAIN CONTENT */
+
 p {
+    text-align: center;
     padding: 3rem 0 2rem 0;
 }
-
 .card {
     background-color: rgb(15, 14, 23);
     width: 30%;
     color: white;
 }
 
-.info {
-    float:right
-}
-
-.mail {
-    color: rgb(43, 130, 183);
-}
-
 img {
-    width: 100%;
+    float: left;
+    height: 5.5rem;
+}
+
+.left {
+    float: left;
+}
+
+a {
+    color: rgb(43, 130, 183);
+    text-decoration: none;
+}
+
+.margin-card {
+    margin-left: 5%;
+}
+
+.info {
+    float: left;
+    padding: 1rem 0 0 1rem;
 }
