@@ -29,6 +29,7 @@ body {
     width: 70%;
     margin: 0 auto;
     padding-top: 3rem;
+    background-color: white;
 }
 
 /* HEADER */
@@ -70,5 +71,5 @@ a {
 
 .info {
     float: left;
-    padding: 1rem 0 0 1rem;
+    padding: 0.8rem 0 0 0.8rem;
 }
